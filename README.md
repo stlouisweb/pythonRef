@@ -35,8 +35,8 @@ Hello
 - str = 'my string'
 - str = "my string"
 - str = 'I/'m a teapot'
-- str = '''This is a multi-line    
-string, you can use multiple lines and don't need to worry about escaping'''
+- str = '''This is a multi-line string,    
+you can use multiple lines and don't need to worry about escaping'''
 
 > Escaping is adding a / forward slash before a quote mark or other character with special meaning to python, so that it knows to print the actual character and not do something else
 
@@ -119,4 +119,16 @@ Unlike lists, tuples can not be modified after they are created. This is known a
 
 ## Maps
 
-map = dict = dictionary
+> map = dict = dictionary
+
+A map (or dictionary) is a list of key-value pairs, that means that each item in the list has a "key" that is used to reference it's "value". map notation uses curly braces `{}` to denote a map, and a colon `:` to separate a key from its value, and a comma `,`, to separate the items in the map.
+```
+>>> cars = {'John' : 'Truck', 'Bill' : 'Coupe', 'Sue' : 'Convertible', 'Greg' : 'Sedan'}
+```
+
+Mapping the data in this way makes it easier to call out a particular variable as you'll use the key as opposed to the index:
+```
+>>> print(cars['Bill'])
+Coupe
+```
+ 
