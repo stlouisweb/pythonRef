@@ -35,7 +35,7 @@ Hello
 - str = 'my string'
 - str = "my string"
 - str = 'I/'m a teapot'
-- str = '''This is a multi-line
+- str = '''This is a multi-line    
 string, you can use multiple lines and don't need to worry about escaping'''
 
 > Escaping is adding a / forward slash before a quote mark or other character with special meaning to python, so that it knows to print the actual character and not do something else
