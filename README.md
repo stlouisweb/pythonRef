@@ -14,7 +14,7 @@ Hello
 - \+ = Addition
 - \- = Subtraction
 - \- = Multiplication
-- \- = Division
+- / = Division
 
  ```
 >>> 2 + 2 * 5 - 2
